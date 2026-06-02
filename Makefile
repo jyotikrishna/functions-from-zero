@@ -1,8 +1,8 @@
 install:
 	pip install --upgrade pip &&pip install -r requirements.txt
 
-#test:
-#	python3 -m pytest -vv test_hello.py
+test:
+	python3 -m pytest -vv test_hello.py
 
 format:
 	black *.py
